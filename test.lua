@@ -159,11 +159,6 @@ local UICorner_49 = Instance.new("UICorner")
 local close_4 = Instance.new("ImageButton")
 local TextLabel_28 = Instance.new("TextLabel")
 local warning = Instance.new("Sound")
-local version = getgenv().Version == TextLabel_21.Text
-local updatetext1 = getgenv().Text1
-local updatetext2 = getgenv().Text2
-local updatetext3 = getgenv().Text3
-local updatetext4 = getgenv().Text4
 
 function cursednotif(text)
 	wait(0.2)
@@ -1346,7 +1341,7 @@ TextLabel_21.BackgroundTransparency = 1.000
 TextLabel_21.Position = UDim2.new(0.0532322116, 0, 0.0515151508, 0)
 TextLabel_21.Size = UDim2.new(0, 338, 0, 42)
 TextLabel_21.Font = Enum.Font.Highway
-TextLabel_21.Text = (version)
+TextLabel_21.Text = getgenv().Version
 TextLabel_21.TextColor3 = Color3.fromRGB(102, 0, 255)
 TextLabel_21.TextSize = 51.000
 TextLabel_21.TextWrapped = true
