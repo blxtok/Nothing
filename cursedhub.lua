@@ -159,7 +159,7 @@ local UICorner_49 = Instance.new("UICorner")
 local close_4 = Instance.new("ImageButton")
 local TextLabel_28 = Instance.new("TextLabel")
 local warning = Instance.new("Sound")
-local version = TextLabel_22.Text
+local version = _G.Version
 
 function cursednotif(text)
 	wait(0.2)
