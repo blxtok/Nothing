@@ -159,7 +159,7 @@ local UICorner_49 = Instance.new("UICorner")
 local close_4 = Instance.new("ImageButton")
 local TextLabel_28 = Instance.new("TextLabel")
 local warning = Instance.new("Sound")
-local version = getgenv().Version
+local version = getgenv().Version == TextLabel_21.Text
 local updatetext1 = getgenv().Text1
 local updatetext2 = getgenv().Text2
 local updatetext3 = getgenv().Text3
