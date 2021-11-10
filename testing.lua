@@ -5,3 +5,5 @@ if game.PlaceId == getgenv().gameid then
 	loadstring(game:HttpGet(script1))()
 	wait(1)
 end
+
+print("zort")
